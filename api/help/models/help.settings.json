@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "helps",
+  "info": {
+    "name": "help"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "Contents": {
+      "type": "richtext"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "visible": {
+      "type": "boolean"
+    }
+  }
+}

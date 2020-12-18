@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "moves",
+  "info": {
+    "name": "move"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Body": {
+      "type": "richtext"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Basic",
+        "Debt",
+        "Faction",
+        "Archetype"
+      ]
+    }
+  }
+}
