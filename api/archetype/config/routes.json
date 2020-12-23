@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/helps",
-      "handler": "help.find",
+      "path": "/archetypes",
+      "handler": "archetype.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/helps/count",
-      "handler": "help.count",
+      "path": "/archetypes/count",
+      "handler": "archetype.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/helps/:id",
-      "handler": "help.findOne",
+      "path": "/archetypes/:id",
+      "handler": "archetype.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/helps",
-      "handler": "help.create",
+      "path": "/archetypes",
+      "handler": "archetype.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/helps/:id",
-      "handler": "help.update",
+      "path": "/archetypes/:id",
+      "handler": "archetype.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/helps/:id",
-      "handler": "help.delete",
+      "path": "/archetypes/:id",
+      "handler": "archetype.delete",
       "config": {
         "policies": []
       }

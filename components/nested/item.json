@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_nested_items",
+  "info": {
+    "name": "item",
+    "icon": "asterisk",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_gear_gears",
+  "info": {
+    "name": "gear",
+    "icon": "anchor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "thing": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nested.item"
+    },
+    "count": {
+      "type": "integer",
+      "default": 0
+    },
+    "text": {
+      "type": "richtext"
+    }
+  }
+}

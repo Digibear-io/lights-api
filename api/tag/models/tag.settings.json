@@ -1,24 +1,21 @@
 {
   "kind": "collectionType",
-  "collectionName": "wikis",
+  "collectionName": "tags",
   "info": {
-    "name": "wiki"
+    "name": "tag",
+    "description": ""
   },
   "options": {
     "increments": true,
     "timestamps": true,
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "attributes": {
-    "Title": {
+    "name": {
       "type": "string"
     },
-    "Body": {
+    "description": {
       "type": "richtext"
-    },
-    "slug": {
-      "type": "uid",
-      "targetField": "Title"
     }
   }
 }

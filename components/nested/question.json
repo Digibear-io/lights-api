@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_nested_questions",
+  "info": {
+    "name": "Question",
+    "icon": "american-sign-language-interpreting",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext"
+    }
+  }
+}
