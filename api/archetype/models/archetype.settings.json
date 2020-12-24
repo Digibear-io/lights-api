@@ -24,8 +24,8 @@
       "targetField": "Name"
     },
     "moves": {
-      "collection": "move",
       "via": "archetypes",
+      "collection": "move",
       "dominant": true
     },
     "image": {
@@ -39,7 +39,7 @@
     },
     "Questions": {
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "questions.questions"
     },
     "gear": {
@@ -67,15 +67,31 @@
       "repeatable": false,
       "component": "demeanor.demeanor"
     },
-    "gender": {
-      "type": "component",
-      "repeatable": false,
-      "component": "demeanor.demeanor"
-    },
     "clothing": {
       "type": "component",
       "repeatable": false,
       "component": "demeanor.demeanor"
+    },
+    "intimacy": {
+      "type": "richtext"
+    },
+    "End": {
+      "type": "richtext"
+    },
+    "Corruption": {
+      "type": "richtext"
+    },
+    "Advances": {
+      "type": "component",
+      "repeatable": true,
+      "component": "advance.advances"
+    },
+    "faction": {
+      "model": "faction",
+      "via": "archetypes"
+    },
+    "Debts": {
+      "type": "richtext"
     }
   }
 }

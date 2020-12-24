@@ -7,17 +7,18 @@
   },
   "options": {},
   "attributes": {
-    "thing": {
-      "type": "component",
-      "repeatable": true,
-      "component": "nested.item"
-    },
     "count": {
       "type": "integer",
       "default": 0
     },
     "text": {
       "type": "richtext"
+    },
+    "title": {
+      "type": "string"
+    },
+    "things": {
+      "collection": "thing"
     }
   }
 }

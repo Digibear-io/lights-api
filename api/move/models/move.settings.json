@@ -25,19 +25,29 @@
       "type": "enumeration",
       "enum": [
         "Basic",
+        "Corruption",
         "Debt",
         "Faction",
         "Archetype"
       ],
       "required": true
     },
-    "Archetype": {
-      "type": "string",
-      "required": true
-    },
     "archetypes": {
-      "via": "moves",
-      "collection": "archetype"
+      "collection": "archetype",
+      "via": "moves"
+    },
+    "Option": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nested.item"
+    },
+    "num_options": {
+      "type": "integer",
+      "default": 0
+    },
+    "automatic": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

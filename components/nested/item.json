@@ -9,6 +9,10 @@
   "attributes": {
     "text": {
       "type": "string"
+    },
+    "advanced": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

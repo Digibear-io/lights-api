@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "articles",
+  "info": {
+    "name": "Article",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "Title"
+    },
+    "Body": {
+      "type": "richtext"
+    },
+    "Type": {
+      "type": "enumeration",
+      "enum": [
+        "News",
+        "Theme",
+        "Help"
+      ],
+      "default": "News",
+      "required": true
+    },
+    "Featured": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

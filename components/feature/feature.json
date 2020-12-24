@@ -2,7 +2,8 @@
   "collectionName": "components_feature_features",
   "info": {
     "name": "Feature",
-    "icon": "air-freshener"
+    "icon": "air-freshener",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -13,6 +14,9 @@
       "type": "component",
       "repeatable": true,
       "component": "nested.item"
+    },
+    "Title": {
+      "type": "string"
     }
   }
 }

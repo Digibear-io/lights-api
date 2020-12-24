@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_advance_advances",
+  "info": {
+    "name": "Advances",
+    "icon": "crown",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "TItle": {
+      "type": "string"
+    },
+    "Advance": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nested.item"
+    }
+  }
+}

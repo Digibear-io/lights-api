@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "things",
+  "info": {
+    "name": "Thing",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Featured": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "num_slots": {
+      "type": "integer"
+    },
+    "tags": {
+      "collection": "tag",
+      "via": "things",
+      "dominant": true
+    },
+    "slots": {
+      "collection": "slot",
+      "via": "things",
+      "dominant": true
+    }
+  }
+}
