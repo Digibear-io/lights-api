@@ -24,8 +24,8 @@
       "targetField": "Name"
     },
     "moves": {
-      "via": "archetypes",
       "collection": "move",
+      "via": "archetypes",
       "dominant": true
     },
     "image": {
@@ -92,6 +92,11 @@
     },
     "Debts": {
       "type": "richtext"
+    },
+    "Names": {
+      "type": "component",
+      "repeatable": true,
+      "component": "names.names"
     }
   }
 }

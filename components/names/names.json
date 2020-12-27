@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_names_names",
+  "info": {
+    "name": "Names",
+    "icon": "hat-cowboy-side"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}
