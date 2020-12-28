@@ -42,36 +42,6 @@
       "repeatable": true,
       "component": "questions.questions"
     },
-    "gear": {
-      "type": "component",
-      "repeatable": true,
-      "component": "gear.gear"
-    },
-    "Feature": {
-      "type": "component",
-      "repeatable": true,
-      "component": "feature.feature"
-    },
-    "Stats": {
-      "type": "component",
-      "repeatable": false,
-      "component": "stats.stats"
-    },
-    "Factions": {
-      "type": "component",
-      "repeatable": false,
-      "component": "stats.stats"
-    },
-    "Demeanor": {
-      "type": "component",
-      "repeatable": false,
-      "component": "demeanor.demeanor"
-    },
-    "clothing": {
-      "type": "component",
-      "repeatable": false,
-      "component": "demeanor.demeanor"
-    },
     "intimacy": {
       "type": "richtext"
     },
@@ -97,6 +67,53 @@
       "type": "component",
       "repeatable": true,
       "component": "names.names"
+    },
+    "clothing": {
+      "type": "component",
+      "repeatable": true,
+      "component": "names.names"
+    },
+    "demeanor": {
+      "type": "component",
+      "repeatable": true,
+      "component": "names.names"
+    },
+    "blood": {
+      "type": "integer",
+      "default": 0
+    },
+    "heart": {
+      "type": "integer",
+      "default": 0
+    },
+    "mind": {
+      "type": "integer",
+      "default": 0
+    },
+    "spirit": {
+      "type": "integer",
+      "default": 0
+    },
+    "mortality": {
+      "type": "integer",
+      "default": 0
+    },
+    "night": {
+      "type": "integer",
+      "default": 0
+    },
+    "power": {
+      "type": "integer",
+      "default": 0
+    },
+    "wild": {
+      "type": "integer",
+      "default": 0
+    },
+    "gear": {
+      "type": "component",
+      "repeatable": true,
+      "component": "gear.gear"
     }
   }
 }

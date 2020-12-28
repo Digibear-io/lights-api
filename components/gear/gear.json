@@ -2,23 +2,22 @@
   "collectionName": "components_gear_gears",
   "info": {
     "name": "gear",
-    "icon": "anchor",
+    "icon": "at",
     "description": ""
   },
   "options": {},
   "attributes": {
+    "options": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nested.options"
+    },
     "count": {
       "type": "integer",
       "default": 0
     },
     "text": {
-      "type": "richtext"
-    },
-    "title": {
       "type": "string"
-    },
-    "things": {
-      "collection": "thing"
     }
   }
 }

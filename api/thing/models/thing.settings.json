@@ -33,11 +33,6 @@
       "collection": "tag",
       "via": "things",
       "dominant": true
-    },
-    "slots": {
-      "collection": "slot",
-      "via": "things",
-      "dominant": true
     }
   }
 }

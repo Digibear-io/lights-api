@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_nested_options",
+  "info": {
+    "name": "options",
+    "icon": "file-signature"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/the-city",
+      "handler": "the-city.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/the-city",
+      "handler": "the-city.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/the-city",
+      "handler": "the-city.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
